@@ -1,0 +1,95 @@
+.fa.fa-chevron-circle-right {
+    right: 0;
+}
+.fa.fa-chevron-circle-left {
+    left: 0;
+}
+.fa.fa-chevron-circle-right, .fa.fa-chevron-circle-left {
+    margin-bottom: 1px;
+    position: absolute;
+    top: -30px;
+    color:#2e6da4;
+	
+}
+.col-img-responsive02 span{
+	color:#fff;
+}
+.col-img-responsive02 {
+	
+	display:none;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    width:100%;
+	height:100%;
+    position: absolute;
+  
+}
+
+
+.carousel-control{
+width:5%;
+}
+.panel-body{
+	position:relative;
+	padding:0px;
+}
+.btn-primary {
+    background-color: #30d165;
+    border-color: #2e6da4;
+    border-radius: 0;
+    bottom: -15px;
+    color: #fff;
+    position: relative;
+    width: 100%;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.38);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.38);
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.38);	
+}
+.btn-primary {
+    background-color: #2e6da4;
+    border-color: #fff;
+}
+.panel-default{
+-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.38);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.38);
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.38);
+    border: medium none;
+    border-radius: 0;
+}
+
+.panel-heading{
+	padding:0px;
+	position:relative;
+	
+}
+.panel-heading img{
+	width:139px;
+	height:152px;
+	border-radius: 45%;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right{
+    background-image: none;
+}
+
+.large 
+{
+	font-size:4.5em;
+}
+
+.mid
+{
+	padding-left:22%;
+}
+
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+
+
+.row img
+{
+	border-radius: 45%;
+}
+

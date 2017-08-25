@@ -1,0 +1,143 @@
+
+.Container{
+  width:500px;
+  
+  margin:0 auto;
+  position:relative;
+  top:30px;
+  left: 0;
+  
+}
+
+.Items{
+  position:absolute;
+  
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  
+}
+
+.Carousel{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+/*Let the users know there is something to click.*/
+.Carousel li:hover{
+  cursor:pointer;
+  transform: scale(0.9);
+	
+        box-shadow: 0 0 10px rgba(52, 102, 204, 11);
+}
+
+/*The front image.*/
+.Front{
+ 
+ 
+  
+  cursor:pointer;
+  transform: scale(0.9);
+	
+        box-shadow: 0 0 20px rgba(52, 102, 204, 11);
+
+}
+
+/*The left image.*/
+.Left{
+  left:-200px;
+ 
+  opacity:0.4;
+  -webkit-transform: scale(.75);
+  -moz-transform: scale(.75);
+  transform: scale(.75);
+}
+
+/*The left image.*/
+.Left2{
+  left:-400px;
+  
+  opacity:0.4;
+  -webkit-transform: scale(.50);
+  -moz-transform: scale(.50);
+  transform: scale(.50);
+}
+
+/*The right image.*/
+.Right{
+  left:200px;
+  
+  opacity:0.4;
+  -webkit-transform: scale(.75);
+  -moz-transform: scale(.75);
+  transform: scale(.75);
+}
+
+/*The right image.*/
+.Right2{
+  left:400px;
+ 
+  opacity:0.4;
+  -webkit-transform: scale(.50);
+  -moz-transform: scale(.50);
+  transform: scale(.50);
+}
+
+
+.Scale{
+ 
+  -webkit-transform: scale(.75);
+  -moz-transform: scale(.75);
+  transform: scale(.75);
+}
+
+.Scale2{
+ 
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+}
+
+.Items{
+  
+  text-align:center;
+  color:black;
+  text-shadow:#000 0px 1px;
+  
+}
+
+
+/*LUL*/
+
+
+ul {
+
+        margin: 50px;
+
+        list-style: none;
+
+    }
+
+    ul li {
+
+        margin: 10px;
+
+        display: inline-block;
+
+    }
+
+    ul li a {
+
+        padding: 5px;
+
+        display: inline-block;      
+
+      
+
+    }
+
+  
+
